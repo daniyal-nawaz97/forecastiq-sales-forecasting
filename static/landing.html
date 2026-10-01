@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ForecastIQ: sales forecasting for retail, e-commerce and finance</title>
+  <meta name="description" content="See next month's sales before it happens. Plan stock and budget with a forecast that shows its likely range and explains why.">
+  <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/ui.css">
+  <style>
+    :root { --accent: #0d9488; } body { background: #fff; }
+    .l-nav { display: flex; align-items: center; justify-content: space-between; max-width: 1160px; margin: 0 auto; padding: 18px 24px; }
+    .hero { max-width: 1160px; margin: 0 auto; padding: 36px 24px 20px; display: grid; grid-template-columns: 1fr 1.25fr; gap: 48px; align-items: center; }
+    .hero h1 { font-size: 46px; line-height: 1.08; letter-spacing: -0.03em; } .hero p.lead { font-size: 19px; color: var(--text-2); margin: 18px 0 26px; }
+    .eyebrow { display: inline-flex; background: var(--accent-50); color: var(--accent-600); padding: 5px 12px; border-radius: 999px; font-weight: 600; font-size: 13px; margin-bottom: 18px; }
+    .shot { border-radius: 14px; box-shadow: 0 20px 60px rgba(16,24,40,.18); border: 1px solid var(--border); overflow: hidden; background: #fff; }
+    .shot img, .shot video { display: block; width: 100%; }
+    section { max-width: 1160px; margin: 0 auto; padding: 64px 24px; } .band { background: var(--bg); max-width: none; } .band > div { max-width: 1160px; margin: 0 auto; }
+    .section-title { text-align: center; max-width: 680px; margin: 0 auto 36px; } .section-title h2 { font-size: 32px; letter-spacing: -0.02em; } .section-title p { color: var(--text-2); margin-top: 10px; font-size: 17px; }
+    .benefit { padding: 26px; } .benefit .bi { font-size: 26px; margin-bottom: 10px; } .benefit h3 { font-size: 18px; margin-bottom: 6px; } .benefit p { color: var(--text-2); }
+    .two { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+    .numbers { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; } .numbers .card { padding: 22px; text-align: center; } .numbers .big { font-size: 32px; font-weight: 800; color: var(--accent); }
+    .price { padding: 28px; display: flex; flex-direction: column; gap: 14px; } .price.featured { border: 2px solid var(--accent); box-shadow: var(--shadow); }
+    .price ul { margin: 0; padding-left: 18px; color: var(--text-2); display: grid; gap: 6px; } .price .amt { font-size: 28px; font-weight: 800; }
+    .cta { text-align: center; background: var(--accent); color: #fff; border-radius: 20px; padding: 54px 24px; } .cta h2 { font-size: 32px; } .cta p { opacity: .9; margin: 10px 0 24px; font-size: 17px; }
+    .cta .btn { background: #fff; color: var(--accent); border-color: #fff; }
+    ul.check { list-style: none; padding: 0; margin: 18px 0 0; display: grid; gap: 10px; } ul.check li::before { content: "✓"; color: var(--ok); font-weight: 800; margin-right: 10px; }
+    footer { border-top: 1px solid var(--border); padding: 26px 24px; text-align: center; color: var(--text-3); font-size: 14px; }
+    @media (max-width: 900px) { .hero, .two { grid-template-columns: 1fr; } .hero h1 { font-size: 34px; } .numbers { grid-template-columns: repeat(2, 1fr); } section { padding: 44px 16px; } .l-nav { padding: 14px 16px; } }
+  </style>
+</head>
+<body>
+  <nav class="l-nav"><a class="brand" href="/landing"><span class="brand-mark">F</span><span>ForecastIQ</span></a><a class="btn btn-primary" href="/#/login">Explore demo business</a></nav>
+  <div class="hero"><div>
+      <span class="eyebrow">For owners and finance heads in retail, FMCG, e-commerce &amp; SaaS</span>
+      <h1>See next month's sales before it happens.</h1>
+      <p class="lead">Plan stock and budget with confidence. A forecast with a realistic range, tested on your own past months, explained in plain language.</p>
+      <div class="row wrap"><a class="btn btn-primary btn-lg cta-link" href="/#/login">Send us your sales file for a free forecast</a><a class="btn btn-lg" href="#demo">Watch the demo</a></div></div>
+    <div class="shot"><img src="/static/img/screens/overview.png" alt="ForecastIQ overview: next month forecast, likely range, accuracy, drivers and risks"></div></div>
+  <section><div class="section-title"><h2>Decisions you can defend</h2><p>Not a single magic number. A range, the reasons, and proof it works on your data.</p></div>
+    <div class="grid grid-3">
+      <div class="card benefit"><div class="bi">📦</div><h3>Buy the right stock</h3><p>Forecasts per product and branch, with stock-out and overstock warnings before they happen.</p></div>
+      <div class="card benefit"><div class="bi">🌙</div><h3>Ready for Ramadan &amp; Eid</h3><p>Islamic holidays, sales and promotions are built in, so seasonal peaks don't surprise you.</p></div>
+      <div class="card benefit"><div class="bi">🎯</div><h3>Proven on your past</h3><p>We forecast your last 6 months as if they hadn't happened yet, so you see how reliable it is before you trust it.</p></div></div></section>
+  <section class="band"><div class="two">
+    <div><h2 style="font-size:32px;letter-spacing:-0.02em">Ask "what if…?"</h2><p class="muted" style="font-size:17px;margin-top:10px">Move a slider and watch the forecast change.</p>
+      <ul class="check"><li>A 15% discount in December: more revenue, but how much margin?</li><li>Double the marketing budget</li><li>A price increase</li><li>Open a new branch next month</li></ul></div>
+    <div class="shot"><img src="/static/img/screens/scenarios.png" alt="What-if scenarios"></div></div></section>
+  <section id="demo"><div style="max-width:1000px;margin:0 auto"><div class="section-title"><h2>See it in 2 minutes</h2></div>
+    <div class="shot" id="videoBox"><video controls preload="none" poster="/static/img/screens/accuracy.png" src="/static/media/demo.webm"></video></div></div></section>
+  <section class="band"><div><div class="section-title"><h2>Tested, not promised</h2><p id="rn">Backtest on the demo business (sample data). Your free sample shows the same test on your own sales.</p></div><div class="numbers" id="numbers"></div></div></section>
+  <section id="pricing"><div class="section-title"><h2>Plans</h2><p>A project fee for the first setup and forecast, then a monthly retainer for refreshed forecasts and a review call.</p></div>
+    <div class="grid grid-3">
+      <div class="card price"><h3>Starter</h3><div class="amt">PKR 20,000<span class="small muted"> /month</span></div><ul><li>Company-level forecast</li><li>Monthly PDF report</li><li>One user</li></ul></div>
+      <div class="card price featured"><span class="badge info plain" style="align-self:flex-start">Most popular</span><h3>Business</h3><div class="amt">PKR 50,000<span class="small muted"> /month</span></div><ul><li>Product &amp; branch forecasts</li><li>Scenarios &amp; accuracy screen</li><li>Stock risk alerts</li><li>Team access</li></ul></div>
+      <div class="card price"><h3>Enterprise</h3><div class="amt">Custom</div><ul><li>Live data connections</li><li>Inventory planning</li><li>Custom models, private hosting</li><li>Priority support</li></ul></div></div></section>
+  <section><div class="cta"><h2>Send 12 months of sales in Excel.</h2><p>We'll send back a forecast for your own business, with the accuracy test. Free.</p><a class="btn btn-lg cta-link" href="/#/login">Get my free forecast</a></div></section>
+  <footer>ForecastIQ · <a href="/privacy">Privacy</a> · <a href="/#/login">Demo business</a></footer>
+  <script>
+    fetch("/api/app-info").then((r) => r.json()).then((i) => {
+      let href = null;
+      if (i.contact_whatsapp) href = `https://wa.me/${i.contact_whatsapp}?text=${encodeURIComponent("Hi, I'd like a free sales forecast for our business.")}`;
+      else if (i.contact_email) href = `mailto:${i.contact_email}?subject=${encodeURIComponent("Free sales forecast")}`;
+      if (href) document.querySelectorAll(".cta-link").forEach((a) => { a.href = href; a.target = "_blank"; });
+    }).catch(() => {});
+    fetch("/static/results.json").then((r) => (r.ok ? r.json() : null)).then((d) => {
+      if (!d) { document.getElementById("numbers").closest("section").remove(); return; }
+      const s = d.summary;
+      const items = [[`${s.accuracy}%`, "accurate on the last 6 months (forecast made beforehand)"], [`${Math.round(s.improvement * 100)}%`, "better than a simple guess"],
+        [`${s.within_range}%`, "of months inside the likely range"], [`${s.products_easy}/${s.products}`, "products easy to forecast"]];
+      document.getElementById("numbers").innerHTML = items.map(([n, l]) => `<div class="card"><div class="big">${n}</div><div class="muted small">${l}</div></div>`).join("");
+    }).catch(() => {});
+    const v = document.querySelector("#videoBox video");
+    fetch(v.getAttribute("src"), { method: "HEAD" }).then((r) => { if (!r.ok) throw 0; }).catch(() => { document.getElementById("videoBox").innerHTML = `<img src="/static/img/screens/accuracy.png" alt="Accuracy screen">`; });
+  </script>
+</body>
+</html>

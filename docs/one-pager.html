@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ForecastIQ: one-pager</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Inter, Arial, sans-serif; color: #111827; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; padding: 12mm 14mm; display: flex; flex-direction: column; gap: 5mm; overflow: hidden; }
+  .top { display: flex; justify-content: space-between; align-items: center; }
+  .brand { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 18px; }
+  .mark { width: 28px; height: 28px; border-radius: 8px; background: #0d9488; color: #fff; display: grid; place-items: center; font-size: 14px; }
+  .tag { font-size: 11px; color: #0d9488; background: #ecfdf5; padding: 4px 10px; border-radius: 99px; font-weight: 600; }
+  h1 { font-size: 27px; line-height: 1.12; margin: 0; letter-spacing: -0.02em; }
+  .lead { font-size: 13.5px; color: #4b5563; margin: 2mm 0 0; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+  .box { border: 1px solid #e5e7eb; border-radius: 10px; padding: 4mm 5mm; }
+  .box h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: #0d9488; margin: 0 0 2mm; }
+  .box p, .box li { font-size: 12px; color: #374151; line-height: 1.5; margin: 0; }
+  .box ul { margin: 0; padding-left: 16px; }
+  .shots { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+  .shots img { width: 100%; height: 58mm; object-fit: cover; object-position: top left; border: 1px solid #e5e7eb; border-radius: 8px; display: block; }
+  .cap { font-size: 10px; color: #6b7280; margin-top: 1mm; }
+  .nums { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; }
+  .num { background: #f6f7f9; border-radius: 10px; padding: 3.5mm; text-align: center; }
+  .num b { display: block; font-size: 22px; color: #0d9488; letter-spacing: -0.02em; }
+  .num span { font-size: 10.5px; color: #4b5563; }
+  .foot { margin-top: auto; background: #0d9488; color: #fff; border-radius: 12px; padding: 5mm 6mm; display: flex; justify-content: space-between; align-items: center; }
+  .foot b { font-size: 15px; } .foot span { font-size: 12px; opacity: .92; }
+  .note { font-size: 9.5px; color: #9ca3af; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="top"><div class="brand"><span class="mark">F</span>ForecastIQ</div><span class="tag">Sales forecasting</span></div>
+  <div>
+    <h1>See next month's sales before it happens.</h1>
+    <p class="lead">Plan stock and budget with a forecast that shows its likely range, explains why, and proves itself on your own past months.</p>
+  </div>
+  <div class="cols">
+    <div class="box"><h2>The problem</h2><p>Stock and budgets are planned from last month and gut feeling. Ramadan and Eid peaks cause stock-outs; slow seasons leave warehouses full; finance has no defensible number.</p></div>
+    <div class="box"><h2>The solution</h2><ul><li>Upload your sales Excel; it's cleaned automatically</li><li>Forecast by product and branch with a likely range</li><li>Plain-language reasons; stock-out &amp; overstock warnings</li><li>What-if scenarios and a monthly PDF report</li></ul></div>
+  </div>
+  <div class="shots">
+    <div><img src="screenshots/overview.png" alt=""><div class="cap">Overview: forecast, range, accuracy, drivers and risks.</div></div>
+    <div><img src="screenshots/accuracy.png" alt=""><div class="cap">Accuracy tested on the last 6 months.</div></div>
+  </div>
+  <div>
+    <div class="box" style="border:0;padding:0 0 2mm"><h2>Tested on the demo business</h2></div>
+    <div class="nums">
+      <div class="num"><b>2.3%</b><span>average monthly error (forecast made beforehand)</span></div>
+      <div class="num"><b>65%</b><span>better than "same as last month"</span></div>
+      <div class="num"><b>6 / 6</b><span>months inside the likely range</span></div>
+      <div class="num"><b>12 + 3</b><span>products and branches forecast</span></div>
+    </div>
+    <p class="note" style="margin-top:2mm">Sample data (fictitious company), so optimistic. We run the same accuracy test on your own sales file, free.</p>
+  </div>
+  <div class="cols">
+    <div class="box"><h2>Private by default</h2><p>Your data stays in your own installation, behind a login. No outside AI services. Deleted on request.</p></div>
+    <div class="box"><h2>Plans</h2><p>Starter · Business · Enterprise. Setup project, then a monthly retainer with a refreshed forecast and review call.</p></div>
+  </div>
+  <div class="foot"><div><b>Free forecast from your own sales file</b><br><span>Send 12 months of sales in Excel. Get your forecast and accuracy test.</span></div><span id="contact">Live demo available on request</span></div>
+</div>
+</body>
+</html>

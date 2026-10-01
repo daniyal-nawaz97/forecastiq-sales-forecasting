@@ -1,0 +1,1138 @@
+{
+  "summary": {
+    "date": "2026-10-01",
+    "file": "sahara_mart_sales.csv",
+    "months_tested": 6,
+    "error": 0.022757483467601175,
+    "accuracy": 97.7,
+    "simple_method": "Same as last month",
+    "simple_error": 0.06485414104307519,
+    "improvement": 0.6490974500381405,
+    "within_range": 100,
+    "seconds": 26.0,
+    "products_easy": 10,
+    "products": 12
+  },
+  "series": {
+    "Whole business": {
+      "best": "regression",
+      "error": 0.022757483467601175,
+      "scores": {
+        "regression": 0.022757483467601175,
+        "holt_winters": 0.042979880185081254,
+        "last_month": 0.06485414104307519,
+        "last_year": 0.1632185169954748
+      },
+      "simple_method": "last_month",
+      "simple_error": 0.06485414104307519,
+      "improvement": 0.6490974500381405,
+      "within_range": 100,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 6391704.0,
+          "regression": 6440024.849629066,
+          "holt_winters": 6722938.9942385,
+          "last_month": 7373046.0,
+          "last_year": 5018010.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 6955796.0,
+          "regression": 7060568.665063091,
+          "holt_winters": 6725753.015058454,
+          "last_month": 6391704.0,
+          "last_year": 5640930.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 6741664.0,
+          "regression": 6603468.869582169,
+          "holt_winters": 6345154.525315274,
+          "last_month": 6955796.0,
+          "last_year": 5944205.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 7114902.0,
+          "regression": 7046749.732932749,
+          "holt_winters": 6980964.125244601,
+          "last_month": 6741664.0,
+          "last_year": 5860830.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 6985500.0,
+          "regression": 7321120.716216979,
+          "holt_winters": 7575691.904014942,
+          "last_month": 7114902.0,
+          "last_year": 6032270.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 6641794.0,
+          "regression": 6879566.993839148,
+          "holt_winters": 6569686.620210861,
+          "last_month": 6985500.0,
+          "last_year": 5683020.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Branch: Islamabad (F-7)": {
+      "best": "holt_winters",
+      "error": 0.08491276171529814,
+      "scores": {
+        "regression": 0.11623205840308815,
+        "holt_winters": 0.08491276171529814,
+        "last_month": 0.11980245173770221,
+        "last_year": 0.18810961910941712
+      },
+      "simple_method": "last_month",
+      "simple_error": 0.11980245173770221,
+      "improvement": 0.29122684482945493,
+      "within_range": 83,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 1589660.0,
+          "regression": 2077988.4170243712,
+          "holt_winters": 1779560.4318963077,
+          "last_month": 2257442.0,
+          "last_year": 1166980.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 1800856.0,
+          "regression": 2165358.755192247,
+          "holt_winters": 1653171.7451546504,
+          "last_month": 1589660.0,
+          "last_year": 1435900.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 1783760.0,
+          "regression": 1946957.6407003477,
+          "holt_winters": 1633914.7816445222,
+          "last_month": 1800856.0,
+          "last_year": 1601415.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 1952772.0,
+          "regression": 1936738.0771062172,
+          "holt_winters": 1998204.1465519145,
+          "last_month": 1783760.0,
+          "last_year": 1526040.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 1807956.0,
+          "regression": 1916275.54370942,
+          "holt_winters": 2054186.106836052,
+          "last_month": 1952772.0,
+          "last_year": 1556090.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 1798554.0,
+          "regression": 1747866.7435391494,
+          "holt_winters": 1682465.022397471,
+          "last_month": 1807956.0,
+          "last_year": 1438760.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Branch: Karachi (Clifton)": {
+      "best": "regression",
+      "error": 0.04589597455136204,
+      "scores": {
+        "regression": 0.04589597455136204,
+        "holt_winters": 0.05805486143020589,
+        "last_month": 0.10102730559613586,
+        "last_year": 0.13264930264955146
+      },
+      "simple_method": "last_month",
+      "simple_error": 0.10102730559613586,
+      "improvement": 0.5457072295401543,
+      "within_range": 67,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 2243756.0,
+          "regression": 2215604.338834011,
+          "holt_winters": 2420739.402854848,
+          "last_month": 1529419.0,
+          "last_year": 1841920.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 2396320.0,
+          "regression": 2501023.0349325845,
+          "holt_winters": 2576452.243753396,
+          "last_month": 2243756.0,
+          "last_year": 1866520.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 2279550.0,
+          "regression": 2306436.4610409173,
+          "holt_winters": 2196179.3615581784,
+          "last_month": 2396320.0,
+          "last_year": 2092349.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 2383242.0,
+          "regression": 2485583.204401767,
+          "holt_winters": 2492287.6693411325,
+          "last_month": 2279550.0,
+          "last_year": 2020330.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 2331658.0,
+          "regression": 2523100.4402841725,
+          "holt_winters": 2477649.1885100706,
+          "last_month": 2383242.0,
+          "last_year": 2092960.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 2105764.0,
+          "regression": 2279054.816367,
+          "holt_winters": 2001866.5669524139,
+          "last_month": 2331658.0,
+          "last_year": 1981640.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Branch: Lahore (DHA)": {
+      "best": "regression",
+      "error": 0.009796303674762953,
+      "scores": {
+        "regression": 0.009796303674762953,
+        "holt_winters": 0.08991718013837689,
+        "last_month": 0.10061695748956002,
+        "last_year": 0.1716481815040507
+      },
+      "simple_method": "last_month",
+      "simple_error": 0.10061695748956002,
+      "improvement": 0.902637647577652,
+      "within_range": 100,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 2558288.0,
+          "regression": 2516999.2251417898,
+          "holt_winters": 2454073.433868145,
+          "last_month": 3586185.0,
+          "last_year": 2009110.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 2758620.0,
+          "regression": 2749315.2445003437,
+          "holt_winters": 2482086.2651272914,
+          "last_month": 2558288.0,
+          "last_year": 2338510.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 2678354.0,
+          "regression": 2726782.964351609,
+          "holt_winters": 2226374.741526828,
+          "last_month": 2758620.0,
+          "last_year": 2250441.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 2778888.0,
+          "regression": 2822511.658776765,
+          "holt_winters": 2442679.9900245415,
+          "last_month": 2678354.0,
+          "last_year": 2314460.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 2845886.0,
+          "regression": 2845308.218009333,
+          "holt_winters": 3065268.775011788,
+          "last_month": 2778888.0,
+          "last_year": 2383220.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 2737476.0,
+          "regression": 2751937.3894100282,
+          "holt_winters": 2824244.9052486382,
+          "last_month": 2845886.0,
+          "last_year": 2262620.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Product: Basmati Rice 5kg": {
+      "best": "regression",
+      "error": 0.041356237648912886,
+      "scores": {
+        "regression": 0.041356237648912886,
+        "holt_winters": 0.07063287758488085,
+        "last_month": 0.14063900172873478,
+        "last_year": 0.18800068562424474
+      },
+      "simple_method": "last_month",
+      "simple_error": 0.14063900172873478,
+      "improvement": 0.7059404778151013,
+      "within_range": 83,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 1029024.0,
+          "regression": 989939.7399620389,
+          "holt_winters": 1058024.9881871007,
+          "last_month": 1191312.0,
+          "last_year": 816000.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 1262304.0,
+          "regression": 1249089.7403793058,
+          "holt_winters": 1128665.359672338,
+          "last_month": 1029024.0,
+          "last_year": 871200.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 990144.0,
+          "regression": 1108830.9761894564,
+          "holt_winters": 1215868.6777668404,
+          "last_month": 1262304.0,
+          "last_year": 863640.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 1091232.0,
+          "regression": 1118589.243128582,
+          "holt_winters": 1076612.085542397,
+          "last_month": 990144.0,
+          "last_year": 924000.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 1135296.0,
+          "regression": 1144345.28720571,
+          "holt_winters": 1116901.3184715007,
+          "last_month": 1091232.0,
+          "last_year": 902400.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 1036800.0,
+          "regression": 1085299.2992448527,
+          "holt_winters": 1070157.6985543596,
+          "last_month": 1135296.0,
+          "last_year": 907200.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Product: Body Lotion 300ml": {
+      "best": "regression",
+      "error": 0.043615439364094094,
+      "scores": {
+        "regression": 0.043615439364094094,
+        "holt_winters": 0.10100047310236539,
+        "last_month": 0.16811359826964753,
+        "last_year": 0.14371368309747126
+      },
+      "simple_method": "last_year",
+      "simple_error": 0.14371368309747126,
+      "improvement": 0.6965115747919932,
+      "within_range": 83,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 363800.0,
+          "regression": 408039.9495049553,
+          "holt_winters": 450381.54095609713,
+          "last_month": 458150.0,
+          "last_year": 297500.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 345100.0,
+          "regression": 330053.6303529973,
+          "holt_winters": 334610.2087095424,
+          "last_month": 363800.0,
+          "last_year": 273700.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 294100.0,
+          "regression": 305862.2178804652,
+          "holt_winters": 279282.6740808814,
+          "last_month": 345100.0,
+          "last_year": 274388.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 325550.0,
+          "regression": 321769.2914699017,
+          "holt_winters": 306962.5627168772,
+          "last_month": 294100.0,
+          "last_year": 282200.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 395250.0,
+          "regression": 394126.4890830541,
+          "holt_winters": 378306.25242911006,
+          "last_month": 325550.0,
+          "last_year": 379950.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 526150.0,
+          "regression": 504031.86385201203,
+          "holt_winters": 427618.69888858846,
+          "last_month": 395250.0,
+          "last_year": 402900.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Product: Chocolate Cookies 12-Pack": {
+      "best": "regression",
+      "error": 0.052448720953073104,
+      "scores": {
+        "regression": 0.052448720953073104,
+        "holt_winters": 0.05807152616358007,
+        "last_month": 0.10229402158543548,
+        "last_year": 0.15555177751590038
+      },
+      "simple_method": "last_month",
+      "simple_error": 0.10229402158543548,
+      "improvement": 0.48727481684481255,
+      "within_range": 83,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 450450.0,
+          "regression": 479103.8656136429,
+          "holt_winters": 449232.90992467775,
+          "last_month": 583700.0,
+          "last_year": 389350.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 481650.0,
+          "regression": 478762.9798898695,
+          "holt_winters": 456052.5770579148,
+          "last_month": 450450.0,
+          "last_year": 399100.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 481650.0,
+          "regression": 463903.17355555814,
+          "holt_winters": 413598.72978569975,
+          "last_month": 481650.0,
+          "last_year": 393322.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 535600.0,
+          "regression": 518378.143086313,
+          "holt_winters": 495326.71998893446,
+          "last_month": 481650.0,
+          "last_year": 424450.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 553800.0,
+          "regression": 571898.6759964372,
+          "holt_winters": 588839.1860857903,
+          "last_month": 535600.0,
+          "last_year": 469300.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 494650.0,
+          "regression": 565585.5543734202,
+          "holt_winters": 500996.7719493713,
+          "last_month": 553800.0,
+          "last_year": 453700.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Product: Detergent Powder 2kg": {
+      "best": "holt_winters",
+      "error": 0.05329142542315926,
+      "scores": {
+        "regression": 0.07205574976524921,
+        "holt_winters": 0.05329142542315926,
+        "last_month": 0.05057006442764794,
+        "last_year": 0.18754541200575325
+      },
+      "simple_method": "last_month",
+      "simple_error": 0.05057006442764794,
+      "improvement": -0.05381367467713716,
+      "within_range": 83,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 849420.0,
+          "regression": 900899.4487012192,
+          "holt_winters": 879496.8232855999,
+          "last_month": 898205.0,
+          "last_year": 666600.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 891000.0,
+          "regression": 920861.9106248795,
+          "holt_winters": 905217.1225374172,
+          "last_month": 849420.0,
+          "last_year": 711700.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 944460.0,
+          "regression": 857896.7319727007,
+          "holt_winters": 835945.4166075804,
+          "last_month": 891000.0,
+          "last_year": 775610.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 1010988.0,
+          "regression": 994974.2183701281,
+          "holt_winters": 940394.2926853176,
+          "last_month": 944460.0,
+          "last_year": 750200.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 953964.0,
+          "regression": 1108833.6300249707,
+          "holt_winters": 995682.447318706,
+          "last_month": 1010988.0,
+          "last_year": 861300.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 970596.0,
+          "regression": 1036962.7544974874,
+          "holt_winters": 931840.594813529,
+          "last_month": 953964.0,
+          "last_year": 800800.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Product: Dishwash Liquid 750ml": {
+      "best": "holt_winters",
+      "error": 0.038123117529159305,
+      "scores": {
+        "regression": 0.05286363532072131,
+        "holt_winters": 0.038123117529159305,
+        "last_month": 0.028746870131293536,
+        "last_year": 0.18515986274808918
+      },
+      "simple_method": "last_month",
+      "simple_error": 0.028746870131293536,
+      "improvement": -0.3261658523186106,
+      "within_range": 67,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 469270.0,
+          "regression": 472394.96044277865,
+          "holt_winters": 458948.25268757774,
+          "last_month": 469819.0,
+          "last_year": 327600.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 455782.0,
+          "regression": 505416.5840343582,
+          "holt_winters": 495099.521708971,
+          "last_month": 469270.0,
+          "last_year": 381680.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 446790.0,
+          "regression": 448505.76264396164,
+          "holt_winters": 439836.8663366533,
+          "last_month": 455782.0,
+          "last_year": 405756.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 503552.0,
+          "regression": 493121.77238160354,
+          "holt_winters": 468681.9136768563,
+          "last_month": 446790.0,
+          "last_year": 381160.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 505800.0,
+          "regression": 550503.1506721148,
+          "holt_winters": 504657.9078376639,
+          "last_month": 503552.0,
+          "last_year": 422240.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 508048.0,
+          "regression": 553105.8601665751,
+          "holt_winters": 491073.68075920606,
+          "last_month": 505800.0,
+          "last_year": 433680.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Product: Green Tea 25 Bags": {
+      "best": "regression",
+      "error": 0.06288187157663101,
+      "scores": {
+        "regression": 0.06288187157663101,
+        "holt_winters": 0.07053084718880835,
+        "last_month": 0.16681747486168838,
+        "last_year": 0.1847685469212241
+      },
+      "simple_method": "last_month",
+      "simple_error": 0.16681747486168838,
+      "improvement": 0.623049853567394,
+      "within_range": 83,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 248900.0,
+          "regression": 236870.48127690284,
+          "holt_winters": 249518.17281315074,
+          "last_month": 273980.0,
+          "last_year": 201400.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 223440.0,
+          "regression": 204420.30211610976,
+          "holt_winters": 232244.64160854765,
+          "last_month": 248900.0,
+          "last_year": 171000.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 176320.0,
+          "regression": 192056.15269119907,
+          "holt_winters": 187780.3687940541,
+          "last_month": 223440.0,
+          "last_year": 158669.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 220400.0,
+          "regression": 213017.3038464379,
+          "holt_winters": 179053.89342012268,
+          "last_month": 176320.0,
+          "last_year": 172900.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 263720.0,
+          "regression": 287164.4636802005,
+          "holt_winters": 252587.4451653887,
+          "last_month": 220400.0,
+          "last_year": 220780.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 311980.0,
+          "regression": 322024.120713421,
+          "holt_winters": 284996.957030848,
+          "last_month": 263720.0,
+          "last_year": 248140.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Product: Herbal Shampoo 400ml": {
+      "best": "regression",
+      "error": 0.046483752926324624,
+      "scores": {
+        "regression": 0.046483752926324624,
+        "holt_winters": 0.05330215953970139,
+        "last_month": 0.034368798217242334,
+        "last_year": 0.11455818669643707
+      },
+      "simple_method": "last_month",
+      "simple_error": 0.034368798217242334,
+      "improvement": -0.35249864230063155,
+      "within_range": 67,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 497800.0,
+          "regression": 486898.39692093246,
+          "holt_winters": 516242.5157170199,
+          "last_month": 491150.0,
+          "last_year": 404700.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 509200.0,
+          "regression": 554535.6032837796,
+          "holt_winters": 534307.2287806656,
+          "last_month": 497800.0,
+          "last_year": 470250.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 538650.0,
+          "regression": 513557.71128113836,
+          "holt_winters": 495915.5794738326,
+          "last_month": 509200.0,
+          "last_year": 497078.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 550050.0,
+          "regression": 540999.7096498915,
+          "holt_winters": 532154.1562101393,
+          "last_month": 538650.0,
+          "last_year": 473100.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 530100.0,
+          "regression": 577896.5693240344,
+          "holt_winters": 546200.9782512117,
+          "last_month": 550050.0,
+          "last_year": 508250.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 562400.0,
+          "regression": 570705.2543169362,
+          "holt_winters": 511101.7301960934,
+          "last_month": 530100.0,
+          "last_year": 469300.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Product: Mango Juice 1L": {
+      "best": "regression",
+      "error": 0.06634553040742307,
+      "scores": {
+        "regression": 0.06634553040742307,
+        "holt_winters": 0.12134554292158199,
+        "last_month": 0.114851733162789,
+        "last_year": 0.16673202020339675
+      },
+      "simple_method": "last_month",
+      "simple_error": 0.114851733162789,
+      "improvement": 0.42233757749753786,
+      "within_range": 83,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 645300.0,
+          "regression": 657382.1450643934,
+          "holt_winters": 660493.9610819104,
+          "last_month": 656100.0,
+          "last_year": 491400.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 727650.0,
+          "regression": 804190.666743234,
+          "holt_winters": 799261.6434413393,
+          "last_month": 645300.0,
+          "last_year": 631350.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 814050.0,
+          "regression": 746893.7059344705,
+          "holt_winters": 640732.2589405428,
+          "last_month": 727650.0,
+          "last_year": 711756.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 798750.0,
+          "regression": 779626.8080379842,
+          "holt_winters": 984358.2199489324,
+          "last_month": 814050.0,
+          "last_year": 632700.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 669600.0,
+          "regression": 741729.7879357629,
+          "holt_winters": 773347.6592857648,
+          "last_month": 798750.0,
+          "last_year": 567450.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 539550.0,
+          "regression": 571924.2957170453,
+          "holt_winters": 542728.8294695645,
+          "last_month": 669600.0,
+          "last_year": 462150.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Product: Mineral Water 1.5L": {
+      "best": "regression",
+      "error": 0.04096285829706351,
+      "scores": {
+        "regression": 0.04096285829706351,
+        "holt_winters": 0.10568000810933383,
+        "last_month": 0.12361440029816306,
+        "last_year": 0.14743020733578147
+      },
+      "simple_method": "last_month",
+      "simple_error": 0.12361440029816306,
+      "improvement": 0.6686238965827654,
+      "within_range": 67,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 502440.0,
+          "regression": 509377.43588817783,
+          "holt_winters": 440555.14102443034,
+          "last_month": 526080.0,
+          "last_year": 399360.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 622320.0,
+          "regression": 614403.8015147448,
+          "holt_winters": 564501.4131186499,
+          "last_month": 502440.0,
+          "last_year": 496800.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 624600.0,
+          "regression": 612881.1373174852,
+          "holt_winters": 570643.0132966939,
+          "last_month": 622320.0,
+          "last_year": 565494.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 656880.0,
+          "regression": 627323.9897033235,
+          "holt_winters": 655729.7988682111,
+          "last_month": 624600.0,
+          "last_year": 531720.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 558720.0,
+          "regression": 604268.4408649235,
+          "holt_winters": 710795.1200768553,
+          "last_month": 656880.0,
+          "last_year": 487200.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 438720.0,
+          "regression": 471171.9573300952,
+          "holt_winters": 464025.7823965691,
+          "last_month": 558720.0,
+          "last_year": 410400.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Product: Potato Chips Family Pack": {
+      "best": "regression",
+      "error": 0.04875554250093934,
+      "scores": {
+        "regression": 0.04875554250093934,
+        "holt_winters": 0.056735496058975404,
+        "last_month": 0.04766307310870227,
+        "last_year": 0.148104715021735
+      },
+      "simple_method": "last_month",
+      "simple_error": 0.04766307310870227,
+      "improvement": -0.0229206662723056,
+      "within_range": 83,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 547050.0,
+          "regression": 550070.7427158243,
+          "holt_winters": 507706.1385555611,
+          "last_month": 503300.0,
+          "last_year": 436100.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 534800.0,
+          "regression": 547519.0820701777,
+          "holt_winters": 585982.0912332112,
+          "last_month": 547050.0,
+          "last_year": 447650.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 547050.0,
+          "regression": 517322.5466599069,
+          "holt_winters": 499309.39349270833,
+          "last_month": 534800.0,
+          "last_year": 467282.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 580300.0,
+          "regression": 590839.9963261242,
+          "holt_winters": 569854.3410808358,
+          "last_month": 547050.0,
+          "last_year": 482650.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 582400.0,
+          "regression": 628491.7247642513,
+          "holt_winters": 569802.1193526296,
+          "last_month": 580300.0,
+          "last_year": 489300.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 529550.0,
+          "regression": 588638.8284371324,
+          "holt_winters": 553850.5661322968,
+          "last_month": 582400.0,
+          "last_year": 503650.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Product: Premium Dates 500g": {
+      "best": "regression",
+      "error": 0.09892698449003622,
+      "scores": {
+        "regression": 0.09892698449003622,
+        "holt_winters": 0.1190621736517109,
+        "last_month": 0.39060259923253104,
+        "last_year": 0.10014657177802168
+      },
+      "simple_method": "last_year",
+      "simple_error": 0.10014657177802168,
+      "improvement": 0.012178023334525334,
+      "within_range": 83,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 322800.0,
+          "regression": 369374.5838029753,
+          "holt_winters": 315808.3960985343,
+          "last_month": 966000.0,
+          "last_year": 240000.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 289200.0,
+          "regression": 379414.31984697323,
+          "holt_winters": 300199.7794684742,
+          "last_month": 322800.0,
+          "last_year": 296400.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 302400.0,
+          "regression": 298736.7452278778,
+          "holt_winters": 264565.34526810434,
+          "last_month": 289200.0,
+          "last_year": 309300.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 331200.0,
+          "regression": 329259.12632465817,
+          "holt_winters": 225162.82278449272,
+          "last_month": 302400.0,
+          "last_year": 308400.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 319200.0,
+          "regression": 346539.0480896894,
+          "holt_winters": 295439.3442049851,
+          "last_month": 331200.0,
+          "last_year": 303600.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 342000.0,
+          "regression": 330470.5981284959,
+          "holt_winters": 295841.86861127766,
+          "last_month": 319200.0,
+          "last_year": 280800.0,
+          "excluded_share": 0.0
+        }
+      ]
+    },
+    "Product: Sunscreen SPF50": {
+      "best": "holt_winters",
+      "error": 0.12201438722661684,
+      "scores": {
+        "regression": 0.13461126242590715,
+        "holt_winters": 0.12201438722661684,
+        "last_month": 0.17389705260684216,
+        "last_year": 0.15920604807861793
+      },
+      "simple_method": "last_year",
+      "simple_error": 0.15920604807861793,
+      "improvement": 0.23360708528884144,
+      "within_range": 100,
+      "rows": [
+        {
+          "month": "2026-04",
+          "actual": 465450.0,
+          "regression": 544869.5662455414,
+          "holt_winters": 417787.12212041527,
+          "last_month": 355250.0,
+          "last_year": 348000.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-05",
+          "actual": 613350.0,
+          "regression": 676608.0979736523,
+          "holt_winters": 600850.4788921792,
+          "last_month": 465450.0,
+          "last_year": 490100.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-06",
+          "actual": 581450.0,
+          "regression": 687455.8897990165,
+          "holt_winters": 666414.5272913998,
+          "last_month": 613350.0,
+          "last_year": 521910.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-07",
+          "actual": 510400.0,
+          "regression": 632395.3055444938,
+          "holt_winters": 611118.1375632256,
+          "last_month": 581450.0,
+          "last_year": 497350.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-08",
+          "actual": 517650.0,
+          "regression": 497811.092883297,
+          "holt_winters": 547517.0956142476,
+          "last_month": 510400.0,
+          "last_year": 420500.0,
+          "excluded_share": 0.0
+        },
+        {
+          "month": "2026-09",
+          "actual": 381350.0,
+          "regression": 409663.55229563284,
+          "holt_winters": 460728.3888223874,
+          "last_month": 517650.0,
+          "last_year": 310300.0,
+          "excluded_share": 0.0
+        }
+      ]
+    }
+  }
+}
