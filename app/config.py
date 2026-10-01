@@ -14,7 +14,7 @@ BRAND_DIR = DATA_DIR / "brand"
 DB_PATH = DATA_DIR / "forecast.db"
 STATIC_DIR = BASE_DIR / "static"
 SAMPLE_DIR = BASE_DIR / "sample_data"
-PUBLIC_BASE_URL = os.getenv("PUBLIC_BASE_URL", "").rstrip("/")
+PUBLIC_BASE_URL = (os.getenv("PUBLIC_BASE_URL") or os.getenv("RENDER_EXTERNAL_URL", "")).rstrip("/")  # Render sets RENDER_EXTERNAL_URL
 
 DEMO_MODE = os.getenv("DEMO_MODE", "1") != "0"
 DEMO_EMAIL = os.getenv("DEMO_EMAIL", "demo@forecastiq.app")

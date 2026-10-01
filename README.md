@@ -62,20 +62,27 @@ Open http://localhost:8004 and click **Explore demo business**. The first start 
 5. Check **Accuracy** with them before going live.
 6. **Reports**: recipients and day of the month; set SMTP in `.env` for email.
 
-## Free live demo on Hugging Face Spaces
+## Free live demo links
 
-No card needed. The demo data rebuilds itself on every start, so the link always shows a clean demo.
+### GitHub Codespaces (free, all features)
 
-1. Create a free account at https://huggingface.co and a token with **Write** access at https://huggingface.co/settings/tokens.
-2. Put optional secrets in `.env` (`SMTP_*` (optional, monthly report email), `CONTACT_EMAIL` / `CONTACT_WHATSAPP`). They are stored as Space secrets, never in the code.
-3. Run:
-   ```bash
-   pip install huggingface_hub
-   python scripts/deploy_hf.py --user YOUR_HF_USERNAME --token hf_xxx
-   ```
-4. Wait for the first build (a few minutes). Your link: `https://YOUR_HF_USERNAME-forecastiq.hf.space`
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/daniyal-nawaz97/forecastiq-sales-forecasting?quickstart=1)
 
-Free Spaces sleep after about 2 days without visitors; open the link a minute before a client meeting to wake it up.
+1. Click the button above (or **Code → Codespaces → Create codespace on main**).
+2. Wait about 3–5 minutes the first time while it installs; the app starts by itself on port 8004.
+3. Open the **Ports** tab, check port 8004 shows **Public** (right-click → Port visibility → Public if not), and copy its address. It looks like `https://<name>-8004.app.github.dev`. Send that link to the client.
+
+Free GitHub accounts get about 60 hours a month on a 2-core machine (30 hours of a running Codespace). A Codespace stops after 30 minutes without activity; **stop it yourself after the meeting** (Codespaces page → ⋯ → Stop) to save hours. Restarting it brings the same link back, with fresh demo data.
+
+### Render (free, always available link, sleeps when idle)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/daniyal-nawaz97/forecastiq-sales-forecasting)
+
+1. Create a free account at https://render.com with **Sign in with GitHub** (no card needed for the free plan).
+2. Click the button above. Render reads `render.yaml`, builds the Docker image and gives you a link like `https://forecastiq.onrender.com` (or similar if taken).
+3. Fill in the optional values it asks for (contact email/WhatsApp); leave the rest empty.
+
+The free plan sleeps after about 15 minutes without visitors; the first visit then takes about a minute to wake up. The demo data rebuilds itself on every start, so the demo is always clean.
 
 ## Deploying
 
